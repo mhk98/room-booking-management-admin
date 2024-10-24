@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.table {
+  width: 1000px;
+}
+
+/* globals.css */
+@media (min-width: 1024px) {
+  .table_container, drawer-button {
+    margin-top: -150px !important;
+    padding: 10px;
+  }
+}
+
+
+.same-size-input {
+  width: 100%;
+}
+
+.active {
+  /* Your active styles here */
+  color: white;
+  background-color: #4a5568; /* Example background color */
+  /* Add any other styles you want for the active state */
+}
