@@ -167,7 +167,7 @@ const Admin = () => {
               <tr className="bg-base-200" key={room._id}>
                 <td>{room._id}</td>
                 <td>{room.title}</td>
-                <td><img src={`http://localhost:5000/${room.picture}`} alt="" width={100} height={100} /></td>
+                <td><img src={`https://room-booking-management-backend.onrender.com/${room.picture}`} alt="" width={100} height={100} /></td>
                 <td>{room.rent}</td>
                 <td>
                   <ul>
